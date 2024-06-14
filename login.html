@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Wethu</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Wethu</h2>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <input class="srch" type="search" placeholder="Search products">
+            <button class="btn">Search</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="login_process.php" method="post"> <!-- Change the action to the PHP script -->
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button class="btn" type="submit">Login</button>
+                <div class="link">
+                    <a href="register.html">Don't have an account? Register here</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
